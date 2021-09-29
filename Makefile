@@ -1,4 +1,4 @@
-REGISTRY ?= ghcr.io
+REGISTRY ?= localhost:5000
 USERNAME ?= talos-systems
 SHA ?= $(shell git describe --match=none --always --abbrev=8 --dirty)
 TAG ?= $(shell git describe --tag --always --dirty)
@@ -19,7 +19,7 @@ CONVERSION_GEN_VERSION ?= v0.21.3
 BUILD := docker buildx build
 PLATFORM ?= linux/amd64
 PROGRESS ?= auto
-PUSH ?= false
+PUSH ?= true
 COMMON_ARGS := --file=Dockerfile
 COMMON_ARGS += --progress=$(PROGRESS)
 COMMON_ARGS += --platform=$(PLATFORM)
