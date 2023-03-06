@@ -30,7 +30,7 @@ require (
 	github.com/containernetworking/cni v0.8.1 // indirect
 	github.com/cosi-project/runtime v0.0.0-20210707150857-25f235cd0682 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/docker/distribution v2.7.1+incompatible // indirect
+	github.com/docker/distribution v2.8.0+incompatible // indirect
 	github.com/drone/envsubst/v2 v2.0.0-20210615175204-7bf45dbf5372 // indirect
 	github.com/dustin/go-humanize v1.0.0 // indirect
 	github.com/fsnotify/fsnotify v1.4.9 // indirect
